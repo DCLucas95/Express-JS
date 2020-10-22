@@ -1,23 +1,19 @@
 {
-  "name": "express-js",
+  "name": "starwars-express",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.16.3"
   },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DCLucas95/Express-JS.git"
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DCLucas95/Express-JS/issues"
-  },
-  "homepage": "https://github.com/DCLucas95/Express-JS#readme"
+  "license": "ISC"
 }
